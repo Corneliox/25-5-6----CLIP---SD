@@ -12,9 +12,9 @@ processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 positive_prompt = "young, friendly, and energetic south east asian college girl"
 negative_prompt = "bad anatomy, bad hands, three hands, three legs, bad arms, missing legs, missing arms, poorly drawn face, poorly rendered hands, bad face, fused face, cloned face, worst face, three crus, extra crus, fused crus, worst feet, three feet, fused feet, fused thigh, three thigh, extra thigh, worst thigh, missing fingers, extra fingers, ugly fingers, long fingers, bad composition, horn, extra eyes, huge eyes, 2girl, amputation, disconnected limbs, cartoon, cg, 3d, unreal, animate, cgi, render, artwork, illustration, 3d render, cinema 4d, artstation, octane render, mutated body parts, painting, oil painting, 2d, sketch, bad photography, bad photo, deviant art, aberrations, abstract, anime, black and white, collapsed, conjoined, creative, drawing, extra windows, harsh lighting, jpeg artifacts, low saturation, monochrome, multiple levels, overexposed, oversaturated, photoshop, rotten, surreal, twisted, UI, underexposed, unnatural, unreal engine, unrealistic, video game, deformed body features"
 image_folders = {
-    "Enhance": "/content/drive/MyDrive/MindyClip/Dataset/Enhance",
-    "Dzine": "/content/drive/MyDrive/MindyClip/Dataset/Dzine",
-    "Sketch": "/content/drive/MyDrive/MindyClip/Dataset/Sketch",
+    "Enhance": "./Dataset/Train/2_Enhance",
+    "Dzine": "./Dataset/Dzine",
+    "Sketch": "./Dataset/Sketch",
 }
 keywords = ["friendly", "young", "energetic"]  # Key positive prompt keywords
 
