@@ -1,2 +1,4 @@
 /Dataset/*
 /Models/*
+/Output/*
+/OutTrainingState/*
