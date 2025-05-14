@@ -2,3 +2,4 @@
 /Models/*
 /Output/*
 /OutTrainingState/*
+/lightning_logs/*
